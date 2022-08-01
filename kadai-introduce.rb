@@ -1,5 +1,6 @@
 name1 = "安藤"
 name2 = "友哉"
-age = "20"
+name = name1 + name2
+age = 20
 
-puts (name1 + name2 + "です。" + age + "歳です。")
+puts name + "です。" + age.to_s + "歳です。"
